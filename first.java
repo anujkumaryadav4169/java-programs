@@ -1,5 +1,7 @@
 import java.util.*;
 public class first {
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // String input = sc.nextLine();
@@ -570,6 +572,7 @@ public class first {
         //         System.out.println("Not prime");
         //     }
         // }
+       
     }
 
 
