@@ -1,15 +1,14 @@
 import java.util.*;
 public class arrayQ2 {
 
-    public static int largestNumber(int num[]){
-        int largest = Integer.MIN_VALUE; 
+    public static int getLargest(int numbers[] ){
+        int largest = Integer.MIN_VALUE;
 
-        for(int i =0; i<num.length; i++){
-            if(largest < num[i]){
-                largest = num[i];
+        for(int i =0; i<numbers.length; i++){
+            if(largest<numbers[i]){
+                largest = numbers[i];
             }
         }
-
         return largest;
     }
 
@@ -17,7 +16,9 @@ public class arrayQ2 {
 
         int numbers[] = {1,2,6,3,5};
 
-        System.out.println("Largest value is" + largestNumber(numbers));
+        System.out.println("largest number is:" + getLargest(numbers));
+            
     }
+    
     
 }

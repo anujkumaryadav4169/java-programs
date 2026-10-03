@@ -348,7 +348,7 @@ public class first {
 
         // int line = 1;
         // while (line<=4) {
-        //     System.out.println("****");
+        //     System.out.println("****";)
         //     line++;
         // }
 
@@ -573,6 +573,22 @@ public class first {
         //     }
         // }
        
+
+
+        int a = 10; 
+        int b = 12; 
+        int c = 3;
+
+        if(a>b && a>c){
+            System.out.println("a is greater" + a);
+        }
+        else if (b>a && b>c) {
+            System.out.println("b is greater" );
+            
+        }
+        else{
+            System.out.println("c is greater");
+        }
     }
 
 
